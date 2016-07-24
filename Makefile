@@ -5,7 +5,7 @@
 ## Login   <wyzlic_a@epitech.net>
 ##
 ## Started on  Fri May  6 19:02:51 2016 Dimitri Wyzlic
-## Last update Sun Jun  5 22:09:14 2016 Dimitri Wyzlic
+## Last update Sun Jul 24 16:04:45 2016 Dimitri Wyzlic
 ##
 
 CC		= cc
@@ -23,32 +23,32 @@ LIBLAPIN_PATH	= -I/home/${USER}/.froot/include \
 SRC		= tcore/tekpixel.c \
 		  tcore/vecnorme.c \
 		  tcore/go.c \
-		  main.c \
-		  my_swap.c \
-		  my_line.c \
-		  do_raycast.c \
-		  init_stru.c \
-		  move_maths.c \
-		  eff_starfield.c \
-		  fuck_const.c \
-		  my_getnbr.c \
-		  load_ini.c \
-		  get_field_ini.c \
-		  change_map.c \
-		  utils_key.c \
-		  my_putchar.c \
-		  my_putstr.c \
-		  minmap.c \
-		  reset_minmap.c \
-		  do_slomo.c \
-		  draw_cross.c \
-		  do_disco.c \
-		  main_key.c \
-		  display_c_pos.c \
-		  gunfire.c \
-		  load_sound.c \
-		  put_block.c \
-		  strafe.c
+		  src/main.c \
+		  src/my_swap.c \
+		  src/my_line.c \
+		  src/do_raycast.c \
+		  src/init_stru.c \
+		  src/move_maths.c \
+		  src/eff_starfield.c \
+		  src/fuck_const.c \
+		  src/my_getnbr.c \
+		  src/load_ini.c \
+		  src/get_field_ini.c \
+		  src/change_map.c \
+		  src/utils_key.c \
+		  src/my_putchar.c \
+		  src/my_putstr.c \
+		  src/minmap.c \
+		  src/reset_minmap.c \
+		  src/do_slomo.c \
+		  src/draw_cross.c \
+		  src/do_disco.c \
+		  src/main_key.c \
+		  src/display_c_pos.c \
+		  src/gunfire.c \
+		  src/load_sound.c \
+		  src/put_block.c \
+		  src/strafe.c
 
 OBJ		= $(SRC:.c=.o)
 
