@@ -18,14 +18,33 @@ Features :
 
 Controls
 ----------
-
+    ZQSD = Move
+    T = Change Map
+    M = SlowMotion mode
+    A/E = Change FOV
+    C = Show Cross
+    B = Disco (bonus) mode
+    SPACE = Fire
+    Return = Place Block
 Custom maps
 ----------
  You can make your own map easily
  A map is juste a .ini file which respect these rules :
-    (test.pl) pearl program to test pushswap
-    Really fast alorithm, combination of 2 algorithm : Radix sort and Fusion sort
-    Can sort 50,000 numbers in less than 0,5 seconds !
+    -Must have this line first :
+    [level]
+    Then you have to provide 5 informations :
+    - name="name of the map"
+    - size"Width * Height"
+    - width="Wdth"
+    - height="Height"
+    - data="0","1","0" ... (the map)
+    How to fill the data ?
+    You can fill it with :
+    42 : Start
+    0 = Void
+    1 / 3 / = Wall (different colors)
+    8 = Exit
+There is map sample in maps folder
 ![Pushswap](https://raw.githubusercontent.com/ethanquix/ressources/master/gif/pushswap.gif)
 
 Installation
