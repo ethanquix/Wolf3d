@@ -49,7 +49,7 @@ How to fill the data ?
     1 / 3 / = Wall (different colors)
     8 = Exit
 There is map sample in maps folder
-![Pushswap](https://raw.githubusercontent.com/ethanquix/ressources/master/gif/pushswap.gif)
+![Pushswap](https://raw.githubusercontent.com/ethanquix/ressources/master/pict/wolf.png)
 
 Installation
 ----------
